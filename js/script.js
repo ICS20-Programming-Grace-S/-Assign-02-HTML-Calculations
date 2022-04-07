@@ -15,9 +15,17 @@ function calculate () {
   
   // process
   let surfaceArea = 2*(width * length + height * length + height  * width)
+
+  let surface = 2*(height * length + height  * width) + width * length 
+
+  let floor = (width * length)
   
   // output
   document.getElementById('surface-area').innerHTML = 'The surface area of the rectangular prism is: ' + surfaceArea.toFixed(2) + ' cm²'
+    
+  document.getElementById('surface').innerHTML = 'The surface area of the walls are: ' + surface.toFixed(2) + ' cm²'
+    
+  document.getElementById('floor').innerHTML = 'The surface area of the floor is: ' + floor.toFixed(2) + ' cm²'
 }
 
  // Volume process for user input
