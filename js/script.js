@@ -40,5 +40,5 @@ function calculateVolume () {
   let rectangularPrismVolume = (widthVolume * lengthVolume * heightVolume)
   
   // output
-  document.getElementById('volume').innerHTML = 'The volume of the rectangular prism is ' + rectangularPrismVolume.toFixed(2) + ' cm<sup>3</sup>'
+  document.getElementById('volume').innerHTML = 'The volume of the rectangular prism is: ' + rectangularPrismVolume.toFixed(2) + ' cm<sup>3</sup>'
 }
